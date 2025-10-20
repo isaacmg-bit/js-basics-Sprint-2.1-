@@ -8,6 +8,6 @@ const tipusNumero3 = numeroZero > 0 ? "Positiu" : numeroZero === 0 ? "Zero patat
 
 console.log(tipusNumero, tipusNumero2, tipusNumero3);
 
-const trobarMaxim = (a, b, c) => a > b && a > c ? `${a} és el número més gran` : b > a && b > c ? `${b} és el número més gran` : c > b && c > a ? `${c} és el número més gran` : "Empat"
+const trobarMaxim = (a, b, c) => a > b && a > c ? `${a} és el número més gran` : b > a && b > c ? `${b} és el número més gran` : c > b && c > a ? `${c} és el número més gran` : "Hi ha dos numeros iguals!"
 
-console.log(trobarMaxim)
+console.log(trobarMaxim (3, 8, -5));
