@@ -1,6 +1,6 @@
 function processarElements (array, callback) {
-    for (let index = 0; index < array.length; index++) {
-        callback(array[index]);
+    for (const element of frikisEspañolesFavoritos) {
+        callback(element);
     }
 }
 
