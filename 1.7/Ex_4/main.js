@@ -4,6 +4,9 @@ const helloWorld = new Promise((resolve) => {
   }, 2000);
 });
 
-async function name(params) {
-    console.log
+async function greetMe () {
+  const greeting = await helloWorld;
+  console.log(greeting);
 }
+
+greetMe();
