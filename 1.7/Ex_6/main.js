@@ -3,7 +3,7 @@ const promiseOne = new Promise((resolve) => {
 });
 
 const promiseTwo = new Promise((resolve) => {
-  setTimeout(() => resolve('Second promise ready (3sec)'), 3001);
+  setTimeout(() => resolve('Second promise ready (3sec)'), 3000);
 });
 
 Promise.all([promiseOne, promiseTwo])
